@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 :root{
-    --primary:#0d6efd;
+    --primary:#ffc107;
 --dark:#161920;
 --body:#888;
 --box-shadow:0 8px 22px rgba(0,0,0,0.1);
@@ -36,7 +36,36 @@ text-decoration: none;
     left: 0;
     background-color: rgba(21, 20, 51, 0.08);
 }
+.btn{
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}
 .ss{
     margin-bottom: 12rem;
     margin-left: 1rem;
+}
+section{
+    padding: 120px 0;
+}
+.card-effect{
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+.card-effect:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+.iconbox{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 32px;
+border-radius: 100px;
 }
